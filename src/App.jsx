@@ -143,6 +143,13 @@ function App() {
           <div className='artboard artboard-demo phone-1'>
             <Display input={input} output={output} />
             <Keyboard handleInput={handleInput} />
+            In the app pass only 12/16, but in{' '}
+            <a
+              className='text-white underline'
+              href='https://codepen.io/kolor-gurita/pen/JjBPVxr'>
+              This Codepen
+            </a>{' '}
+            it passes 16/16
           </div>
         </div>
       </div>
